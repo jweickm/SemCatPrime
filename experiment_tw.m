@@ -1,5 +1,5 @@
-%% Abschlussprojekt: GENDER STEREOTYPES AND SEMANTIC CATEGORIZATION IN A PRIMING PARADIGM?
-% Authors: Boryana Todorova, Jakob Weickmann 
+%% GENDER STEREOTYPES AND SEMANTIC CATEGORIZATION IN A PRIMING PARADIGM
+% Authors: Jakob Weickmann, Boryana Todorova (20200216)
 %% Description
 % This experiment about visual perception tests whether stereotypes about
 % men or women affect the reaction time in a task, where the participant
@@ -79,10 +79,10 @@ TrialMat =  sortrows(TrialMat');
 TrialMat =  TrialMat';
 
 %% Load images
-angry_man = imread('angry_man_small.png'); 
-angry_woman = imread('angry_woman_small.png');
-happy_man = imread('happy_man_small.png');
-happy_woman = imread('happy_woman_small.png');
+angry_man = imread('images/angry_man_small.png'); 
+angry_woman = imread('images/angry_woman_small.png');
+happy_man = imread('images/happy_man_small.png');
+happy_woman = imread('images/happy_woman_small.png');
 
 %% Scramble images
 blockSize = 2; % size of the resulting blocks
